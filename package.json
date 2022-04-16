@@ -1,0 +1,38 @@
+{
+  "name": "landig-bolierplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp",
+    "watch": "gulp watch",
+    "production": "gulp production"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/register": "^7.17.7",
+    "browser-sync": "^2.27.9",
+    "cssnano": "^5.1.5",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-file-include": "^2.3.0",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-postcss": "^9.0.1",
+    "gulp-purgecss": "^4.1.3",
+    "gulp-sass": "^5.1.0",
+    "gulp-terser": "^2.1.0",
+    "node-sass-tilde-importer": "^1.0.2",
+    "sass": "^1.49.9"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "bootstrap": "^4.6.1",
+    "reset-css": "^5.0.1"
+  }
+}
